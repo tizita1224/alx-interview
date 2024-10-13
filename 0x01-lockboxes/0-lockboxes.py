@@ -13,8 +13,9 @@ def canUnlockAll(boxes):
     """
     # Initialize a set to keep track of opened boxes
     opened_boxes = set()
-    # Initialize a list (queue) to keep track of boxes to check, starting with box 0
-    queue = [0]  
+    # Initialize a list (queue) to keep track of boxes to check, starting with
+    # box 0
+    queue = [0]
 
     while queue:
         # Pop the first box from the queue
